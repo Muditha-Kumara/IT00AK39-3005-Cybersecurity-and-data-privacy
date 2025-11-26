@@ -10,3 +10,5 @@
 | 14.11.2025 | 3 | Read new materials | Get idea with environments |
 | 17.11.2025 | 5 | Watch the lecture recording  | Get proposer idea about the next submission and installed requirements |
 | 18.11.2025 | 4 | Did the assignments  | Submit the assignments |
+| 20.11.2025 | 3 | Study about Pen Test  | Identify pen test and requirements|
+| 21.11.2025 | 5 | Prepare environment to Pen test  | Installed docker and ZAP|
