@@ -14,9 +14,12 @@
 | 21.11.2025 | 5 | Prepare environment to Pen test  | Installed docker and ZAP|
 | 25.11.2025 | 4 | did the Pen test  | ZAP report generated|
 | 28.11.2025 | 3 | make report | report completed|
+| 01.12.2025 | 4 | did the Pen test for Phase 2 | ZAP report generated|
+| 02.12.2025 | 3 | make report | discussionForumReport.md report completed|
 
 # Test Report(BookingSystem-Phase1)
 
-[Test Report](./BookingSystem-Phase1/TestReport.md)
+[Phase 1 Report](./BookingSystem-Phase1/TestReport.md)
+[Phase 2 Report](./BookingSystem-Phase1/discussionForumReport.md)
 
 
