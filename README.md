@@ -17,9 +17,12 @@
 | 01.12.2025 | 4 | did the Pen test for Phase 2 | ZAP report generated|
 | 02.12.2025 | 3 | make report | discussionForumReport.md report completed|
 
-# Test Report(BookingSystem-Phase1)
+# Test Report(BookingSystem-Phase 1)
 
 [Phase 1 Report](./BookingSystem-Phase1/TestReport.md)
+
+# Test Report(BookingSystem-Phase 2)
+
 [Phase 2 Report](./BookingSystem-Phase1/discussionForumReport.md)
 
 
