@@ -104,3 +104,9 @@ This post officially reports the results of our security assessment and the stat
 | Error handling | Fixed |
 
 ---
+
+### Evidence
+
+![alt text](assert/part2Database.png)
+
+![alt text](assert/part2ZAP.png)
