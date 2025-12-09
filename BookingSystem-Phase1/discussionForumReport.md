@@ -50,7 +50,7 @@ This post officially reports the results of our security assessment and the stat
 	- Ran a follow-up ZAP scan (`zap_report_round2.md`).
 	- The alert for missing anti-CSRF tokens persisted in the new report.
 	- Screenshot Evidence:
-	![alt text](image.png)
+	![alt text](<assert/anti-CSRF tokens issue.png>)
 
 #### 4. Set Content Security Policy (CSP) headers
 - **Status:** Fixed
