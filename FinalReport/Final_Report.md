@@ -42,19 +42,37 @@
 ## The Booking System Project
 
 ### Phase 1: Initial Security Assessment
-- **What was done:**
-	- Deployed the booking system using Docker Compose (see `Phase 1/Part1/docker-compose.yml`).
-	- Performed vulnerability assessment using OWASP ZAP.
-	- Identified high-risk issues: Path Traversal, SQL Injection, missing security headers, and lack of anti-CSRF tokens (see `TestReport_part1.md`).
-- **What worked:**
-	- ZAP scans effectively identified vulnerabilities.
-	- Dockerized environment was stable.
-- **What didn't work:**
-	- Anti-CSRF tokens were not implemented in the initial version.
-- **Most time-consuming:**
-	- Analyzing ZAP reports and verifying each vulnerability.
-- **What I learned:**
-	- The importance of automated scanning and the prevalence of common web vulnerabilities.
+
+**What was done:**
+	- Deployed the booking system using Docker Compose.
+	- Performed a comprehensive vulnerability assessment using OWASP ZAP.
+	- The ZAP scan identified the following issues (see [zap_report_round1.md](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/blob/main/BookingSystem-Phase1/ZAP_Report/zap_report_round1.md)):
+		- **High risk:**
+			- Path Traversal (on /register, POST username)
+			- SQL Injection (on /register, POST username)
+		- **Medium risk:**
+			- Absence of Anti-CSRF Tokens (on /register form)
+			- Content Security Policy (CSP) Header Not Set (on / and /register)
+			- Missing Anti-clickjacking Header (on / and /register)
+		- **Low risk:**
+			- Application Error Disclosure (HTTP 500 Internal Error on /register)
+			- X-Content-Type-Options Header Missing (on multiple static resources)
+
+**What worked:**
+	- ZAP scans provided detailed and actionable findings for all major vulnerability categories.
+    - Did PortSwigger tests and get idea about SQL injection, Access control vulnerabilities, Authentication etc vulnerabilities.
+	- The Dockerized environment ensured consistent and reproducible testing.
+
+**What didn't work:**
+	- First I did with Chrome header. Then did not detect SQL injection risk.
+
+**Most time-consuming:**
+	- Identify Chrome header issue with ZAP.
+
+**What I learned:**
+	- I understand basic idea of security risks and how tests a web application.
+    - Automated tools like ZAP are essential for uncovering a wide range of vulnerabilities, from critical injection flaws to missing security headers.
+	- Even simple web applications can have multiple layers of security issues that require both technical and configuration fixes.
 
 ### Phase 2: Password Cracking
 - **What was done:**
