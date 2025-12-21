@@ -58,7 +58,7 @@
 	 - **Low risk:**
 		  - Application Error Disclosure (HTTP 500 Internal Error on /register)
 		  - X-Content-Type-Options Header Missing (on multiple static resources)
-- The ZAP scan identified the following issues with part2 ([zap_report_round2.md](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/blob/main/BookingSystem-Phase1/ZAP_Report/zap_report_round2.md)).
+- The ZAP scaned with part2 ([zap_report_round2.md](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/blob/main/BookingSystem-Phase1/ZAP_Report/zap_report_round2.md)).
 
 **What worked:**
 
@@ -140,7 +140,7 @@
 
 **What was done:**
 
-- Drafted and reviewed privacy policy, cookie policy, terms of service, and GDPR checklist (see [Phase4/](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/tree/main/Phase4)).
+- Drafted and reviewed privacy policy, cookie policy, terms of service, and GDPR checklist (see [Phase4](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/tree/main/Phase4)).
 
 **What worked:**
 
@@ -167,22 +167,24 @@
 ## Logbook
 
 - **GitHub Repository:** [https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy)
+- **Log Book:** [https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/blob/main/README.md](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/blob/main/README.md)
 
-- **Total hours spent:** 52
+- **Total hours spent:** 104.4
 - **Hours per topic:**
-	 - PortSwigger Labs: 8
-	 - Phase 1 (Assessment): 12
-	 - Phase 2 (Password Cracking): 8
-	 - Phase 3 (Authorization): 12
-	 - Phase 4 (Policies & GDPR): 8
-	 - Reporting & Documentation: 4
+  - PortSwigger Labs: 10.4
+  - Phase 1 (Assessment): 30
+  - Phase 2 (Password Cracking): 22
+  - Phase 3 (Authorization): 23
+  - Phase 4 (Policies & GDPR): 12
+  - Reporting & Documentation: 7
 
 ---
 
-## Feedback (Optional)
+## Feedback
 
 - The course provided a comprehensive overview of both offensive and defensive security.
-- More real-world case studies and group discussions would further enhance learning.
+- More real-world case studies and activities would further enhance learning.
 - The hands-on labs and project-based approach were especially valuable.
+- Used more time to teach docker configuration. I think have to use that times to teach related to this important subject.
 
 ---
