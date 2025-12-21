@@ -76,14 +76,15 @@
 
 ### Phase 2: Password Cracking
 - **What was done:**
-	- Used hashcat with `rockyou.txt` and `crackstation.txt` to crack password hashes (see `Phase2/Phase 2: Password Cracking.md`).
+	- Used hashcat with `rockyou.txt` and `crackstation.txt` to crack password hashes (see [Phase2/Phase 2: Password Cracking.md](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/blob/main/Phase2/Phase%202%3A%20Password%20Cracking.md)).
+    - Zap test also done. (See [zap_report_round2.md](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/blob/main/BookingSystem-Phase1/ZAP_Report/zap_report_round2.md))
 	- Compared dictionary and non-dictionary attacks.
 - **What worked:**
 	- Dictionary attacks were fast and effective for weak passwords.
 - **What didn't work:**
 	- Brute-force attacks were impractical for longer passwords.
 - **Most time-consuming:**
-	- Running hashcat on large wordlists.
+	- Running hashcat on large wordlists. In my computure do not possible run ?a?a?... more than 7 combination. Finally I cracked remaining passwork using another dictionary list.
 - **What I learned:**
 	- Password length and complexity are critical for security.
 
