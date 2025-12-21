@@ -10,28 +10,6 @@
 
 **Completed Labs List:**
 
-### SQL injection
-
-- SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
-- SQL injection vulnerability allowing login bypass
-- SQL injection attack, querying the database type and version on Oracle
-- SQL injection attack, querying the database type and version on MySQL and Microsoft
-- SQL injection attack, listing the database contents on non-Oracle databases
-- SQL injection attack, listing the database contents on Oracle
-- SQL injection UNION attack, determining the number of columns returned by the query
-
-# Final Report
-
----
-
-## PortSwigger
-
-**Screenshot of Completed Labs:**
-
-![alt text](image.png)
-
-**Completed Labs List:**
-
 ### SQL Injection
 
 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
@@ -158,20 +136,11 @@
 - Even when UI appears secure, backend APIs may expose additional risks if not properly restricted.
 - Regular manual and automated security testing is essential to maintain robust access controls and prevent over-permissive exposure.
 
-**Summary & Recommendations:**
-
-- Most access controls were effective, but some endpoints were too permissive and backend logic was inconsistently enforced.
-- **Recommendations:**
-	 - Restrict sensitive API endpoints to authorized roles only.
-	 - Implement stricter backend validation for resource creation and reservation logic.
-	 - Align UI and API access controls to prevent hidden exposure.
-	 - Continue regular security testing and address informational alerts.
-
 ### Phase 4: Privacy, GDPR, and Policies
 
 **What was done:**
 
-- Drafted and reviewed privacy policy, cookie policy, terms of service, and GDPR checklist (see `Phase4/`).
+- Drafted and reviewed privacy policy, cookie policy, terms of service, and GDPR checklist (see [Phase4/](https://github.com/Muditha-Kumara/IT00AK39-3005-Cybersecurity-and-data-privacy/tree/main/Phase4)).
 
 **What worked:**
 
@@ -191,7 +160,7 @@
 
 #### Reflection
 
-> This project provided hands-on experience in identifying, exploiting, and remediating common web vulnerabilities. I learned the importance of both technical and policy controls in building secure systems. The iterative process of testing, fixing, and retesting was invaluable for understanding real-world security challenges.
+> This project and tasks provided hands-on experience in identifying, exploiting, and remediating common web vulnerabilities. I also learned how use cybersecurity software and tools. With beginning collapsed confidence about web application. But with time I learned the importance of both technical and policy controls in building secure systems. The iterative process of testing, fixing, and retesting was invaluable for understanding real-world security challenges.
 
 ---
 
